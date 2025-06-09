@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>APEX -LEGENDS-</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>APEX - LEGENDS -</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Oxanium', sans-serif;
+    }
+  </style>
 </head>
-<body>
+<body class="bg-black text-white flex-grow grid grid-cols-2 h-screen">
+
+  <div class="relative w-[1920px] h-[1071px]">
+
+    <!-- Fundo -->
     <div class="bg-[url('./img/imagem-fundo.svg')] bg-cover bg-no-repeat bg-fixed h-screen w-full">
-    <header>
-        <menu>
-            <div class="relative w-[666px] h-[154px]">
-                <img src="./img/menu-fundo.svg" alt="" class="w-full h-[81.5px] w-[1663.5px] x-[133.5px] y-[38.5px]object-cover">
-                <img src="./img/Logo-apex.svg" alt="" class="absolute h-[44.95px] w-[69.83px] top-0 w-[69.83px] h-[44.95px] object-contain">
-              </div>
-              
-        <li>
-            <a href="#">ABOUT</a>
-        </li>
-       <li>
-        <a href="#">MODES</a>
-       </li>
-       <li>
-        <a href="#">SEASON</a>
-       </li>
-    <li>
-        <a href="#">BATTLE PASS</a>
-    </li>
-       <li>
-        <a href="#">NEW & MEDIA</a>
-       </li>
-       <li>
-        <a href="#">COMMUNIT</a>
-       </li>
-       <li>
-        <a href="#">COMPETE</a>
-       </li>
+
+      <!-- Menu superior -->
+      <div class="relative">
+        <img src="./img/menu-fundo.svg" alt="imagem-menu" class="w-[1665px] h-[81.5px] object-cover">
+
+        <header>
+            <ul class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-12 text-sm font-bold">
+                <li>ABOUT</li>
+                <li>MODES</li>
+                <li>SEASON</li>
+                <li>BATTLE PASS</li>
+                <li>NEWS & MEDIA</li>
+                <li>COMMUNITY</li>
+                <li>COMPETE</li>
+                <li class="text-red-500 font-extrabold">
+                  <img src="./img/Button.svg" alt="">
+                </li>
+                <img src="./img/" alt="">
+              </ul>
+        </header>
        
-       <div class="logo-menu">
-        <img src="./img/Logo-apex.svg" alt="logo-menu">
-       </div>
-       <button>
-        <img src="./img/Button.svg" alt="botão de download">
-       </button>
-    </menu>
-</header>
-    <main> 
-          </div>
-        <div class="Imagem-logo">
-          <div class="bg-[url('./img/Logo-apex.svg')] bg-auto bg-left:24 bg-no-repeat"></div>
-        </div>
-        <p class="text-left">For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.</p>
-       
-    </main>
-    <footer></footer>
+      </div>
+<main>
+ <!-- Imagens sobrepostas -->
+ <img src="./img/Logo-apex.svg" alt="logo apex" class="absolute bottom-[1007px] left-[70px] w-[69.83px] h-[44.95px] object-contain">
+
+ <img src="./img/Logo (4).svg" alt="logo grande" class="absolute bottom-[102px] right-[100px] w-[823px] h-[833px]">
+
+ <img src="./img/boneca.svg" alt="personagem" class="absolute bottom-0 right-[100px] w-[734px] h-[881px]">
+
+ <img src="./img/Logo-apex - cópia.svg" class="absolute bottom-[600px]" alt="">
+
+ <!-- Texto informativo -->
+ <div class="absolute bottom-16 left-1/2 transform -translate-x-1/2 text-center max-w-4xl px-4 font-Oxanium">
+   <p class="text-sm text-gray-300">
+     For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.
+   </p>
+ </div>
+
+ <!-- Botões -->
+ <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-6">
+
+   <button class=" bottom-[500px] px-6 py-3 w-[281px] h-[71px] left-[70px] ">
+       <img src="./img/Play free btn.svg" alt="">
+   </button>
+   <button class="px-6 py-3 w-[281px] h-[71px] left-[]">
+       <img src="./img/Watch trailer btn.svg" alt="">
+
+      
+   </button>
+ </div>
+</div>
+</div>
+</main>
+     
+
 </body>
 </html>
