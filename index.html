@@ -14,17 +14,18 @@
 </head>
 <body class="bg-black text-white flex-grow grid grid-cols-2 h-screen">
 
-  <div class="relative w-[1920px] h-[1071px]">
+ <div class="relative w-[1920px] h-[1080px]"> 
 
     <!-- Fundo -->
-    <div class="bg-[url('./img/imagem-fundo.svg')] bg-cover bg-no-repeat bg-fixed h-screen w-full">
+    <div class="bg-[url('./img/imagem-fundo.svg')] bg-cover bg-no-repeat bg-fixed h-screen w-full object-fill">
 
       <!-- Menu superior -->
       <div class="relative">
-        <img src="./img/menu-fundo.svg" alt="imagem-menu" class="w-[1665px] h-[81.5px] object-cover">
+        <img src="./img/Secondary menu.svg" class="absolute w-[1920px] h-[40px]" alt="">
+        <img src="./img/menu-fundo.svg" alt="imagem-menu" class="flex relative top-[35px] left-[120px] w-[1665px] h-[81.5px] object-cover x-[890px] ">
 
-        <header>
-            <ul class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex gap-12 text-sm font-bold">
+        <header class="relative">
+            <ul class="absolute bottom-[-40px] left-[2px] transform translate-x-60 -translate-y-2 flex gap-12 ml-[80px] text-sm font-bold]">
                 <li>ABOUT</li>
                 <li>MODES</li>
                 <li>SEASON</li>
@@ -32,27 +33,29 @@
                 <li>NEWS & MEDIA</li>
                 <li>COMMUNITY</li>
                 <li>COMPETE</li>
-                <li class="text-red-500 font-extrabold">
-                  <img src="./img/Button.svg" alt="">
+                <li class="flex relative top-[20px] ml-[110px]">
                 </li>
-                <img src="./img/" alt="">
+                <img src="./img/Button.svg" class="flex relative bottom-[15px] left-[100px]" alt="">
+               
               </ul>
         </header>
        
       </div>
 <main>
  <!-- Imagens sobrepostas -->
- <img src="./img/Logo-apex.svg" alt="logo apex" class="absolute bottom-[1007px] left-[70px] w-[69.83px] h-[44.95px] object-contain">
+ <img src="./img/Logo-apex.svg" alt="logo apex" class="absolute bottom-[980px] left-[160px] w-[69.83px] h-[44.95px] object-contain">
 
- <img src="./img/Logo (4).svg" alt="logo grande" class="absolute bottom-[102px] right-[100px] w-[823px] h-[833px]">
+ <!--<img src="./img/Logo (4).svg" alt="logo grande" class="absolute bottom-[140px] right-[100px] w-[700px] h-[750px]">
 
- <img src="./img/boneca.svg" alt="personagem" class="absolute bottom-0 right-[100px] w-[734px] h-[881px]">
-
- <img src="./img/Logo-apex - cópia.svg" class="absolute bottom-[600px]" alt="">
+ <img src="./img/boneca.svg" alt="personagem" class="absolute bottom-[112px] right-[100px] w-[600px] h-[700px]">
+-->
+ <img src="./img/Logo-apex - cópia.svg" alt="Nome" class="absolute bottom-[600px] left-[80px]" >
+ <img src="./img/boneca-nova.svg" class="absolute bottom-[157px] right-[100px] w-[700px] h-[750px]">
+ <img src="./img/bagui-menu.svg" class="absolute bottom-[963px] w-[70px] h-[80px] right-[1748px]">
 
  <!-- Texto informativo -->
- <div class="absolute bottom-16 left-1/2 transform -translate-x-1/2 text-center max-w-4xl px-4 font-Oxanium">
-   <p class="text-sm text-gray-300">
+ <div class="flex top-[600px] left-[10px] transform -translate-x-1/2 text-[left] max-w-4xl px-4 font-Oxanium">
+   <p class="flex text-gray-300 mt-[450px] ml-[200px] text-right-[400px] text-[24px] translate-x-80">
      For PlayStation® 4, PlayStation 5, Xbox One, Xbox Series X|S, Nintendo Switch, and PC via Origin and Steam.
    </p>
  </div>
@@ -60,13 +63,13 @@
  <!-- Botões -->
  <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-6">
 
-   <button class=" bottom-[500px] px-6 py-3 w-[281px] h-[71px] left-[70px] ">
-       <img src="./img/Play free btn.svg" alt="">
+   <button class="flex bottom-[500px] px-6 py-3 w-[281px] h-[71px] left-[70px] ">
+       <img src="./img/Play free btn.svg" alt="" class="absolute bottom-[300px] right-[890px]">
    </button>
-   <button class="px-6 py-3 w-[281px] h-[71px] left-[]">
-       <img src="./img/Watch trailer btn.svg" alt="">
+   <button class="flex bottom-[500px] py-3 w-[281px] h-[71px] left-[70px]">
+       <img src="./img/Watch trailer btn.svg" alt="" class="absolute bottom-[300px] right-[590px]">
 
-      
+     
    </button>
  </div>
 </div>
